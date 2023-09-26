@@ -1,1 +1,1 @@
-gunicorn mysite.wsgi:restaurant
+gunicorn mysite.wsgi.application

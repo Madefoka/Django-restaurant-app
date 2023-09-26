@@ -1,0 +1,26 @@
+2023-09-26T10:49:30.926Z [INFO]: # Cloning repository: git@github.com:Madefoka/Django-restaurant-app.git
+2023-09-26T10:49:32.112Z [INFO]: 
+2023-09-26T10:49:32.113Z [INFO]: Cloning into 'Django-restaurant-app'...
+2023-09-26T10:49:32.113Z [INFO]: # Checking for Git submodules at: /codebuild/output/src4157632301/src/Django-restaurant-app/.gitmodules
+2023-09-26T10:49:32.118Z [INFO]: # Retrieving environment cache...
+2023-09-26T10:49:32.154Z [WARNING]: ! Unable to write cache: {"code":"ERR_BAD_REQUEST","message":"Request failed with status code 404"})}
+2023-09-26T10:49:32.154Z [INFO]: ---- Setting Up SSM Secrets ----
+2023-09-26T10:49:32.155Z [INFO]: SSM params {"Path":"/amplify/dkzjeliwetjd9/main/","WithDecryption":true}
+2023-09-26T10:49:32.189Z [WARNING]: !Failed to set up process.env.secrets
+2023-09-26T10:49:32.904Z [INFO]: No live updates for this build run
+2023-09-26T10:49:32.907Z [INFO]: # Retrieving cache...
+2023-09-26T10:49:32.935Z [INFO]: # Retrieved cache
+2023-09-26T10:49:57.795Z [INFO]: ## Starting Backend Build
+                                 ## Checking for associated backend environment...
+                                 ## No backend environment association found, continuing...
+                                 ## Completed Backend Build
+2023-09-26T10:49:57.799Z [INFO]: {"backendDuration": 0}
+                                 ## Starting Frontend Build
+                                 # Starting phase: build
+                                 # Executing command: pip install -r requirements.txt
+2023-09-26T10:49:57.799Z [WARNING]: /codebuild/output/src4157632301/src/Django-restaurant-app/amplify.sh: line 13: pip: command not found
+2023-09-26T10:49:57.800Z [ERROR]: !!! Build failed
+2023-09-26T10:49:57.800Z [ERROR]: !!! Non-Zero Exit Code detected
+2023-09-26T10:49:57.800Z [INFO]: # Starting environment caching...
+2023-09-26T10:49:57.800Z [INFO]: # Environment caching completed
+Terminating logging...

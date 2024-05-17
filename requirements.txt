@@ -1,7 +1,7 @@
 asgiref==3.7.2
 colorama==0.4.6
 Django==3.2.25
-gunicorn==21.2.0
+gunicorn==22.0.0
 importlib-metadata==6.8.0
 packaging==23.1
 Pillow==10.0.1
